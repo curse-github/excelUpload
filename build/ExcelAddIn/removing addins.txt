@@ -1,0 +1,2 @@
+open registry editor
+go to "Computer\HKEY_USERS\S-1-5-21-206511805-761490701-4004513812-1001\SOFTWARE\Microsoft\Office\16.0\WEF\Developer"

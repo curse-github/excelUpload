@@ -2,15 +2,15 @@
 <OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xmlns:ov="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="TaskPaneApp">
   <Id>740c7576-c54b-40fb-9f80-a4c3aac7fb7a</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Curse</ProviderName>
+  <ProviderName>GhostSentry</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
-  <DisplayName DefaultValue="excelUpload"/>
-  <Description DefaultValue="Tool to upload/process your excel spreadsheet to json file."/>
+  <DisplayName DefaultValue="Casino-heatmap"/>
+  <Description DefaultValue="Tool to upload your excel spreasheet to a heatmap at localhost:80."/>
   <IconUrl DefaultValue="http://localhost:3000/assets/icon-32.png"/>
   <HighResolutionIconUrl DefaultValue="http://localhost:3000/assets/icon-64.png"/>
-  <SupportUrl DefaultValue="https://github.com/curse-github/excelUpload"/>
+  <SupportUrl DefaultValue="https://www.finley-cook.com/services/ghostsentry/"/>
   <AppDomains>
-    <AppDomain>https://portfolio.campbellsimpson.com/</AppDomain>
+    <AppDomain>https://www.finley-cook.com/services/ghostsentry/</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Workbook"/>

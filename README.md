@@ -1,3 +1,20 @@
+Tool to upload/process your excel spreadsheet to json file.
+Can be parsed from a CSV and XLSX file, and XLSX file stored on your One-Drive,
+or can be sent using a Excel Add-In
+
+### adding the Add-In to Excel
+disclaimer
+: this has only been tested on my windows computer 
+: and may be different another windows machine and will
+: definitely be different for a linux or mac machine
+> &nbsp;&nbsp;&nbsp; Open "Registry Editor".
+> &nbsp;&nbsp;&nbsp; At the top, paste `Computer\HKEY_USERS\S-1-5-21-206511805-761490701-4004513812-1001\SOFTWARE\Microsoft\Office\16.0\WEF\Developer`.
+> &nbsp;&nbsp;&nbsp; Click `Edit > New > String Value` and give it a name.
+> &nbsp;&nbsp;&nbsp; Double click on the name and set the value to the absolute path of the `ExcelAddIn/yoeman/manifest.xml`
+> &nbsp;&nbsp;&nbsp; For example: `C:\Users\{username}\Desktop\excelUpload\ExcelAddIn\yoeman/manifest.xml`
+> &nbsp;&nbsp;&nbsp; Next time you open Excel at the top there will be a "developer Add-In" you can use.
+
+
 # [Requirements](#requirements)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm libraries
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install using any of the following:\

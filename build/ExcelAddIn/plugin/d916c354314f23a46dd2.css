@@ -1,0 +1,9 @@
+#barParent {
+    width:15em;height:2em;
+    border-radius: 0.5em;overflow:hidden;
+    background-color: rgb(144, 144, 144);
+}
+#bar {
+    width:var(--percent);height:100%;
+    background-color: green;
+}

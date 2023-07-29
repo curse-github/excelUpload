@@ -1,10 +1,10 @@
 {
   "name": "excelupload",
   "version": "1.0.0",
-  "description": "Tool to upload/process your excel spreadsheet to json file.",
-  "main": "server/Server.js",
+  "description": "Tool to upload/process your excel spreasheet to json file.",
+  "main": "./Server.js",
   "scripts": {
-    "start": "node ./server/Server.js"
+    "start": "node ./Server.js"
   },
   "repository": {
     "type": "git",
