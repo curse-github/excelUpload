@@ -1,15 +1,15 @@
 # [Requirements](#requirements)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;### npm libraries
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install using any of the following:
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.bat`,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.sh`,
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`npm install`
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm libraries
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install using any of the following:\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.bat`,\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.sh`,\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`npm install`\
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;### Microsoft Graph
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register an app by following [these steps](https://learn.microsoft.com/en-us/graph/auth-register-app-v2).
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set your scope to at least `User.Read offline_access Files.ReadWrite`.
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save your client id and client secret as a `ClientId.txt` and `ClientSecret.txt` file respectively inside a `graphTokens` folder
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally start the server using the `serverStart` script and go to `http://localhost` and click the "Authenticate with Microsoft graph." button.
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft Graph
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register an app by following [these steps](https://learn.microsoft.com/en-us/graph/auth-register-app-v2).\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set your scope to at least `User.Read offline_access Files.ReadWrite`.\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save your client id and client secret as a `ClientId.txt` and `ClientSecret.txt` file respectively inside a `graphTokens` folder\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Finally start the server using the `serverStart` script and go to `http://localhost` and click the "Authenticate with Microsoft graph." button.\
 
 # [Scripts](#scripts)
 
