@@ -3,7 +3,7 @@ Can be parsed from a CSV and XLSX file, and XLSX file stored on your One-Drive,
 or can be sent using a Excel Add-In
 
 ### [adding the Add-In to Excel](#add-in)
-disclaimer
+disclaimer:
 > this has only been tested on my windows computer\
 > and may be different another windows machine and will\
 > definitely be different for a linux or mac machine
