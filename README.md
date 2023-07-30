@@ -17,16 +17,16 @@ disclaimer
 
 # [Requirements](#requirements)
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;npm libraries
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install using any of the following:\
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.bat`,\
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.sh`,\
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`npm install`
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;install using any of the following:\
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.bat`,\
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`./installDependencies.sh`,\
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`npm install`
 
 ### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Microsoft Graph
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register an app by following [these steps](https://learn.microsoft.com/en-us/graph/auth-register-app-v2).\
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set your scope to at least `User.Read offline_access Files.ReadWrite`.\
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save your client id and client secret as a `ClientId.txt` and `ClientSecret.txt` file respectively inside a `graphTokens` folder\
-.1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Run the `serverStart` script and go to `http://localhost` and click the "Authenticate with Microsoft graph." button.
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Register an app by following [these steps](https://learn.microsoft.com/en-us/graph/auth-register-app-v2).\
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set your scope to at least `User.Read offline_access Files.ReadWrite`.\
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save your client id and client secret as a `ClientId.txt` and `ClientSecret.txt` file respectively inside a `graphTokens` folder\
+1. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Run the `serverStart` script and go to `http://localhost` and click the "Authenticate with Microsoft graph." button.
 
 # [Scripts](#scripts)
 
